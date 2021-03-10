@@ -76,7 +76,7 @@ switch (question4) {
         alert('It\'s a yes or no question - you fail');
         }
 
-let question5 = prompt(`Ok ${username}, did Tim study finance?);
+let question5 = prompt(`Ok ${username}, did Tim study finance?`);
 switch (question5) {
     case 'yes':
         alert('That is correct')
@@ -93,6 +93,3 @@ switch (question5) {
   default:
         alert('It\'s a yes or no question - you fail');
         }
-
-        
-

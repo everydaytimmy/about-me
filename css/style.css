@@ -1,26 +1,40 @@
 h1 {
-    color: red;
+    color: rgb(105, 20, 20);
 	font-size: 200%;
 	vertical-align: baseline;
     }
 
 h2 {
-    color: red;
+    color: rgb(105, 20, 20);
 	font-size: 150%;
 	vertical-align: baseline;
     }
 
 h3 {
-    color: red;
+    color: rgb(105, 20, 20);
 	font-size: 125%;
 	vertical-align: baseline;
     }
 
-article {
+p {
     color: black;
     font-size: 100%;
-	vertical-align: baseline;
+    vertical-align: baseline;
     }
+
+ul {
+    list-style: square outside none;
+    padding: 25px;
+    }
+
+.main {
+        padding-left: 20px;
+    }
+
+.study {
+    font-weight: bold;
+}
+
 
 
 
