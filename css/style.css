@@ -2,4 +2,26 @@ h1 {
     color: red;
 	font-size: 200%;
 	vertical-align: baseline;
-};
+    }
+
+h2 {
+    color: red;
+	font-size: 150%;
+	vertical-align: baseline;
+    }
+
+h3 {
+    color: red;
+	font-size: 125%;
+	vertical-align: baseline;
+    }
+
+article {
+    color: black;
+    font-size: 100%;
+	vertical-align: baseline;
+    }
+
+
+
+
