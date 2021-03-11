@@ -1,7 +1,15 @@
+body {
+    background-color: rgb(188, 206, 221);
+    max-width: 800px;
+    margin: auto;
+    font-family: Helvetica
+}
+
 h1 {
     color: rgb(105, 20, 20);
 	font-size: 200%;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-align: center;
     }
 
 h2 {
@@ -27,9 +35,11 @@ ul {
     padding: 25px;
     }
 
-.main {
-        padding-left: 20px;
+ol {
+    list-style-type: upper-roman;
+    padding: 25px;
     }
+    
 
 .study {
     font-weight: bold;
