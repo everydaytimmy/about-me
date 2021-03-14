@@ -1,8 +1,10 @@
 body {
     background-color: rgb(188, 206, 221);
-    max-width: 800px;
     margin: auto;
-    font-family: Helvetica
+    font-family: Helvetica;
+    height: 300px;
+    width: 800px;
+    padding: 200px;    
 }
 
 h1 {
@@ -10,12 +12,14 @@ h1 {
 	font-size: 200%;
     vertical-align: baseline;
     text-align: center;
+    font-weight: bold;
     }
 
 h2 {
     color: rgb(105, 20, 20);
 	font-size: 150%;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    text-align: center;
     }
 
 h3 {
@@ -43,7 +47,11 @@ ol {
 
 .study {
     font-weight: bold;
+    border-width: thin; 
     }
+
+.bio{
+}
 
 
 
