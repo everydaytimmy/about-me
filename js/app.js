@@ -1,6 +1,6 @@
 'use strict';
 
-let userName = prompt('Hello, what is your name?')
+let userName = prompt('Hello, what is your name?');
 alert('Hello ' + userName);
 console.log('You are' + userName);
 
@@ -8,7 +8,7 @@ let correctAnswerCount = 0;
 
 function affirmative() {
     alert('That is correct');
-    CorrectAnswerCount++;
+    correctAnswerCount += 1;
     console.log('That is correct');
 }
 
@@ -20,16 +20,16 @@ function negative() {
 let question2 = prompt(`Ok ${userName}, was Tim in the Marines?`);
 switch (question2.toLowerCase()) {
     case 'yes':
-        negative()
+        negative();
         break;
     case 'y':
-        negative()
+        negative();
         break;
     case 'no':
-        affirmative()
+        affirmative();
         break;
     case 'n':
-        affirmative()
+        affirmative();
         break;
     default:
         alert('It\'s a yes or no question - you fail');
@@ -38,16 +38,16 @@ switch (question2.toLowerCase()) {
 let question3 = prompt(`Ok ${userName}, Did Tim go to university in California?`);
 switch (question3.toLowerCase()) {
     case 'yes':
-        negative()
+        negative();
         break;
     case 'y':
-        negative()
+        negative();
         break;
     case 'no':
-        affirmative()
+        affirmative();
         break;
     case 'n':
-        affirmative()
+        affirmative();
         break;
     default:
         alert('It\'s a yes or no question - you fail');
@@ -56,22 +56,16 @@ switch (question3.toLowerCase()) {
 let question4 = prompt(`Ok ${userName}, did Tim meet his wife at work?`);
 switch (question4.toLowerCase()) {
     case 'yes':
-        alert('That is incorrect');
-        //console.log('That is incorrect');
+        negative();
         break;
     case 'y':
-        alert('That is incorrect');
-        //console.log('That is incorrect');
+        negative();
         break;
     case 'no':
-        alert('That is correct');
-        correctAnswerCount++;
-        //console.log('That is correct');
+        affirmative();
         break;
     case 'n':
-        alert('That is correct');
-        correctAnswerCount++;
-        //console.log('That is correct');
+        affirmative();
         break;
     default:
         alert('It\'s a yes or no question - you fail');
@@ -80,22 +74,16 @@ switch (question4.toLowerCase()) {
 let question5 = prompt(`Ok ${userName}, did Tim study finance?`);
 switch (question5.toLowerCase()) {
     case 'yes':
-        alert('That is correct');
-        correctAnswerCount++;
-        //console.log('That is correct');
+        affirmative();
         break;
     case 'y':
-        alert('That is correct');
-        correctAnswerCount++;
-        //console.log('That is correct');
+        affirmative();
         break;
     case 'no':
-        alert('That is incorrect');
-        //console.log('That is incorrect');
+        negative();
         break;
     case 'n':
-        alert('That is incorrect');
-        //console.log('That is incorrect');
+        negative();
         break;
     default:
         alert('It\'s a yes or no question - you fail');
