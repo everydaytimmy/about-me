@@ -1,10 +1,17 @@
 body {
-    background-color: rgb(188, 206, 221);
+    /* background-color: rgb(188, 206, 221); */
+    background-image: url('../img/iceland.jpg');
+    opacity: 1;
     margin: auto;
     font-family: Helvetica;
-    height: 300px;
-    width: 800px;
-    padding: 200px;    
+    /* height: 800px;
+    width: 800px; */
+    padding: 50px;    
+}
+
+.main {
+    border: solid;
+    padding: 3px;
 }
 
 h1 {
@@ -20,12 +27,18 @@ h2 {
 	font-size: 150%;
     vertical-align: baseline;
     text-align: center;
+    border: solid;
+    border-color: black;
+    padding: 3px;
+    margin-top: 10px;
     }
 
 h3 {
     color: rgb(105, 20, 20);
 	font-size: 125%;
 	vertical-align: baseline;
+    text-align: center;
+    
     }
 
 p {
@@ -48,9 +61,12 @@ ol {
 .study {
     font-weight: bold;
     border-width: thin; 
+    
     }
 
 .bio{
+    border: solid;
+    padding: 3px;
 }
 
 
